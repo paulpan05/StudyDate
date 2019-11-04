@@ -19,5 +19,6 @@
     "strictNullChecks": true,
     "target": "esnext"
   },
-  "include": ["./src/**/*", "./__tests__/**/*"]
+  "include": ["./src/**/*", "./__tests__/**/*"],
+  "exclude": ["./src/utils/**/*"]
 }
